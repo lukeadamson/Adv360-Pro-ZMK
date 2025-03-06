@@ -83,11 +83,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp ESCAPE            &kp EXCL        &kp AT            &kp HASH      &kp DOLLAR     &kp PERCENT  &tog 1                                                                   &mo 3      &kp CARET  &kp AMPS        &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp TAB               &kp Q           &kp W             &kp E         &kp R          &kp T        &none                                                                    &none      &kp Y      &kp U           &kp I          &kp O                 &kp P                  &kp BSLH
-&kp LG(LEFT_CONTROL)  &kp A           &kp S             &kp D         &kp F          &kp G        &hyper         &none  &none               &none            &none         &hyper     &kp H      &kp J           &kp K          &kp L                 &colon_semicolon       &kp SQT
-&kp LSHFT             &kp Z           &kp X             &kp C         &kp V          &kp B                              &none               &none                                     &kp N      &kp M           &kp COMMA      &kp DOT               &kp FSLH               &kp RSHFT
-&mo 2                 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META               &kp BACKSPACE  &mo 1  &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &lt 1 RETURN  &kp SPACE             &kp RIGHT_META  &kp RIGHT_ALT  &kp RIGHT_CONTROL     &kp RIGHT_SHIFT        &mo 2
+&kp ESCAPE        &kp EXCL        &kp AT            &kp HASH      &kp DOLLAR     &kp PERCENT  &tog 1                                                                   &mo 3      &kp CARET  &kp AMPS        &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp TAB           &kp Q           &kp W             &kp E         &kp R          &kp T        &none                                                                    &none      &kp Y      &kp U           &kp I          &kp O                 &kp P                  &kp BSLH
+&kp LEFT_CONTROL  &kp A           &kp S             &kp D         &kp F          &kp G        &hyper         &none  &none               &none            &none         &hyper     &kp H      &kp J           &kp K          &kp L                 &colon_semicolon       &kp SQT
+&kp LSHFT         &kp Z           &kp X             &kp C         &kp V          &kp B                              &none               &none                                     &kp N      &kp M           &kp COMMA      &kp DOT               &kp FSLH               &kp RSHFT
+&mo 2             &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META               &kp BACKSPACE  &mo 1  &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &lt 1 RETURN  &kp SPACE             &kp RIGHT_META  &kp RIGHT_ALT  &kp RIGHT_CONTROL     &kp RIGHT_SHIFT        &mo 2
             >;
         };
 

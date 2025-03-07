@@ -98,7 +98,7 @@
 &kp TAB     &none   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_ENTER     &none                                         &none      &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none              &kp BSLH
 &trans      &none   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_NUMBER_0  &trans    &none  &none      &none  &none      &trans     &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
 &kp LSHFT   &none   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp PERIOD                        &none      &none                        &none      &kp LESS_THAN         &kp GREATER_THAN       &trans            &none              &kp RSHFT
-&mo 2       &trans  &trans     &trans     &trans                      &kp BSPC  &none  &to 0      &to 0  &kp ENTER  &kp KP_N0             &trans                &trans                 &trans            &trans             &mo 2
+&mo 2       &trans  &trans     &trans     &trans                      &kp BSPC  &none  &to 0      &to 0  &kp ENTER  &kp SPACE             &trans                &trans                 &trans            &trans             &mo 2
             >;
         };
 

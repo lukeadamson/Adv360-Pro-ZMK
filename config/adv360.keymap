@@ -44,7 +44,10 @@
         hyper: hyper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_SHIFT>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_GUI &kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_SHIFT>;
+
             label = "HYPER";
         };
     };

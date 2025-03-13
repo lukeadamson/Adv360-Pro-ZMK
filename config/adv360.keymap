@@ -56,7 +56,7 @@
         };
 
         hyper_s {
-            bindings = <&none>;
+            bindings = <&macro_hyper_s>;
             key-positions = <32 41 42>;
         };
     };

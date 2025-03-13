@@ -49,6 +49,20 @@
             bindings = <&caps_word>;
             key-positions = <46 59>;
         };
+
+        hyper_c {
+            bindings = <&macro_hyper_c>;
+            key-positions = <32 41>;
+        };
+    };
+
+    macros {
+        macro_hyper_c: macro_hyper_c {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(C))))>;
+            label = "MACRO_HYPER_C";
+        };
     };
 
     keymap {

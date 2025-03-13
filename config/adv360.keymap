@@ -54,6 +54,11 @@
             bindings = <&macro_hyper_c>;
             key-positions = <32 41>;
         };
+
+        hyper_s {
+            bindings = <&none>;
+            key-positions = <32 41 42>;
+        };
     };
 
     macros {
@@ -62,6 +67,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LA(LC(LG(C))))>;
             label = "MACRO_HYPER_C";
+        };
+
+        macro_hyper_s: macro_hyper_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(S))))>;
+            label = "MACRO_HYPER_S";
         };
     };
 

@@ -102,13 +102,28 @@
         };
 
         paste {
-            bindings = <&kp LG(C)>;
+            bindings = <&kp LG(V)>;
             key-positions = <49 50>;
         };
 
         system_layer {
             bindings = <&tog 3>;
             key-positions = <60 75>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <11 12>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <25 26>;
+        };
+
+        hyper_m {
+            bindings = <&kp LS(LA(LC(LG(M))))>;
+            key-positions = <32 30>;
         };
     };
 
@@ -141,11 +156,11 @@
         qwerty {
             display-name = "Base";
             bindings = <
-&kp ESCAPE        &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none                                                         &none                      &kp NUMBER_6  &kp N7          &kp N8         &kp N9             &kp N0           &kp BACKSPACE
-&kp TAB           &kp Q           &kp W             &kp E         &kp R         &kp T   &none                                                         &none                      &kp Y         &kp U           &kp I          &kp O              &kp P            &kp BSLH
-&kp LEFT_CONTROL  &kp A           &kp S             &kp D         &kp F         &kp G   &kp GRAVE     &none           &none      &none  &none         &kp RS(RA(RC(RIGHT_GUI)))  &kp H         &kp J           &kp K          &kp L              &kp SEMICOLON    &kp SQT
-&kp LSHFT         &kp Z           &kp X             &kp C         &kp V         &kp B                                 &none      &none                                           &kp N         &kp M           &kp COMMA      &kp DOT            &kp FSLH         &kp EQUAL
-&tog 1            &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp TILDE             &kp LEFT_GUI  &kp LEFT_SHIFT  &none      &none  &lt 2 RETURN  &kp SPACE                                &kp RIGHT_META  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &tog 2
+&kp ESCAPE        &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none                                                              &none                      &kp NUMBER_6  &kp N7          &kp N8         &kp N9             &kp N0           &kp BACKSPACE
+&kp TAB           &kp Q           &kp W             &kp E         &kp R         &kp T   &none                                                              &none                      &kp Y         &kp U           &kp I          &kp O              &kp P            &kp BSLH
+&kp LEFT_CONTROL  &kp A           &kp S             &kp D         &kp F         &kp G   &kp GRAVE     &kp LA(BACKSPACE)  &none      &none  &kp RA(DELETE)  &kp RS(RA(RC(RIGHT_GUI)))  &kp H         &kp J           &kp K          &kp L              &kp SEMICOLON    &kp SQT
+&kp LSHFT         &kp Z           &kp X             &kp C         &kp V         &kp B                                    &none      &none                                             &kp N         &kp M           &kp COMMA      &kp DOT            &kp FSLH         &kp EQUAL
+&tog 1            &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp TILDE             &kp LEFT_GUI  &kp LEFT_SHIFT     &none      &none  &lt 2 RETURN    &kp SPACE                                &kp RIGHT_META  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &tog 2
             >;
         };
 
@@ -162,11 +177,11 @@
         nav {
             display-name = "navigation";
             bindings = <
-&trans  &kp F1     &kp F2          &kp F3          &kp F4           &kp F6     &kp F6                                                              &kp F7  &kp F8    &kp F9     &kp F10    &kp F11    &kp F12  &trans
-&trans  &trans     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans     &trans                                                              &trans  &trans    &trans     &trans     &trans     &trans   &trans
-&trans  &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans  &kp LA(BACKSPACE)  &trans      &bootloader  &kp RA(DELETE)  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans   &trans
-&trans  &trans     &trans          &msc SCRL_DOWN  &msc SCRL_UP     &trans                                &trans      &trans                               &trans    &kp RA(B)  &kp RA(F)  &trans     &trans   &trans
-&trans  &trans     &trans          &trans          &trans                      &trans  &trans             &trans      &trans       &trans          &trans            &trans     &trans     &trans     &trans   &trans
+&trans  &kp F1     &kp F2          &kp F3          &kp F4           &kp F6     &kp F6                                           &kp F7  &kp F8    &kp F9     &kp F10    &kp F11    &kp F12  &trans
+&trans  &trans     &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans     &trans                                           &trans  &trans    &trans     &trans     &trans     &trans   &trans
+&trans  &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans  &trans  &trans      &bootloader  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans   &trans
+&trans  &trans     &trans          &msc SCRL_DOWN  &msc SCRL_UP     &trans                     &trans      &trans                       &trans    &kp RA(B)  &kp RA(F)  &trans     &trans   &trans
+&trans  &trans     &trans          &trans          &trans                      &trans  &trans  &trans      &trans       &trans  &trans            &trans     &trans     &trans     &trans   &trans
             >;
         };
 

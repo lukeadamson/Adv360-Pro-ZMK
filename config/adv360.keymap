@@ -68,13 +68,13 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <23 24>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <24 25>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         left_bracket {

@@ -48,21 +48,25 @@
         hyper_c {
             bindings = <&macro_hyper_c>;
             key-positions = <32 31>;
+            timeout-ms = <20>;
         };
 
         hyper_s {
             bindings = <&macro_hyper_s>;
             key-positions = <30 31>;
+            timeout-ms = <20>;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <41 42>;
+            timeout-ms = <20>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <42 43>;
+            timeout-ms = <20>;
         };
 
         left_brace {
@@ -80,31 +84,37 @@
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <55 56>;
+            timeout-ms = <20>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <56 57>;
+            timeout-ms = <20>;
         };
 
         arrow {
             bindings = <&macro_arrow>;
             key-positions = <12 13>;
+            timeout-ms = <20>;
         };
 
         cut {
             bindings = <&kp LG(X)>;
             key-positions = <47 48>;
+            timeout-ms = <20>;
         };
 
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <48 49>;
+            timeout-ms = <20>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <49 50>;
+            timeout-ms = <20>;
         };
 
         system_layer {
@@ -115,11 +125,13 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <11 12>;
+            timeout-ms = <20>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <25 26>;
+            timeout-ms = <20>;
         };
 
         hyper_m {

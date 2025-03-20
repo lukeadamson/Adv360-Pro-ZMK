@@ -72,13 +72,13 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <23 24>;
-            timeout-ms = <20>;
+            timeout-ms = <15>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <24 25>;
-            timeout-ms = <20>;
+            timeout-ms = <15>;
         };
 
         left_bracket {
@@ -102,19 +102,19 @@
         cut {
             bindings = <&kp LG(X)>;
             key-positions = <47 48>;
-            timeout-ms = <20>;
+            timeout-ms = <15>;
         };
 
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <48 49>;
-            timeout-ms = <20>;
+            timeout-ms = <15>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <49 50>;
-            timeout-ms = <20>;
+            timeout-ms = <15>;
         };
 
         system_layer {

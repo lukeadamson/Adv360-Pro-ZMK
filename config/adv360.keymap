@@ -189,11 +189,11 @@
         nav {
             display-name = "navigation";
             bindings = <
-&trans  &kp F1  &kp F2           &kp F3               &kp F4               &kp F6           &kp F6                                           &kp F7  &kp F8  &kp F9          &kp F10         &kp F11    &kp F12  &trans
-&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8      &kp KP_NUMBER_9      &trans           &trans                                           &trans  &trans  &trans          &kp UP_ARROW    &trans     &trans   &trans
-&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5      &kp KP_NUMBER_6      &kp KP_NUMBER_0  &trans  &trans  &trans      &bootloader  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &kp KP_NUMBER_1  &kp LG(KP_NUMBER_2)  &kp LG(KP_NUMBER_3)  &kp KP_ENTER                     &trans      &trans                       &trans  &kp RA(B)       &kp RA(F)       &trans     &trans   &trans
-&trans  &trans  &trans           &trans               &trans                                &trans  &trans  &trans      &trans       &trans  &trans          &trans          &trans          &trans     &trans   &trans
+&trans  &kp F1  &kp F2           &kp F3           &kp F4           &kp F6           &kp F6                                           &kp F7  &kp F8  &kp F9          &kp F10         &kp F11    &kp F12  &trans
+&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans           &trans                                           &trans  &trans  &trans          &kp UP_ARROW    &trans     &trans   &trans
+&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans  &trans  &trans      &bootloader  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER                     &trans      &trans                       &trans  &kp RA(B)       &kp RA(F)       &trans     &trans   &trans
+&trans  &trans  &trans           &trans           &trans                            &trans  &trans  &trans      &trans       &trans  &trans          &trans          &trans          &trans     &trans   &trans
             >;
         };
 

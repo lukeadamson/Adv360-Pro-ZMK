@@ -72,12 +72,14 @@
             bindings = <&kp LEFT_BRACE>;
             key-positions = <23 24>;
             timeout-ms = <15>;
+            layers = <6>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <24 25>;
             timeout-ms = <15>;
+            layers = <6>;
         };
 
         left_bracket {
